@@ -1,0 +1,27 @@
+.list {
+  text-align: center;
+  list-style:none;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  color: black;
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.disabled{
+  transform: translateY(-200px);
+}
+
+.active{
+  width: 100%;
+  transition-duration: 1s;
+  transform: translateY(0px);
+  background: aqua;
+}
