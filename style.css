@@ -1,13 +1,20 @@
 .list {
   text-align: center;
   list-style:none;
+  padding-left: 0;
 }
+
+li {
+  border-bottom: solid 1px rgb(160, 155, 155);
+  margin-bottom: 5px;
+}
+
 .link {
   color: black;
   text-decoration: none;
 }
 .link:hover {
-  color: black;
+  color: #8921BE;
   text-decoration: none;
 }
 .btn {
@@ -23,5 +30,5 @@
   width: 100%;
   transition-duration: 1s;
   transform: translateY(0px);
-  background: aqua;
+  background: rgb(213, 216, 216);
 }
