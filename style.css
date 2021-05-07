@@ -12,23 +12,60 @@ li {
 .link {
   color: black;
   text-decoration: none;
+  font-size: 20px;
 }
 .link:hover {
   color: #8921BE;
   text-decoration: none;
 }
 .btn {
-  display: flex;
-  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.box {
+  position: relative;
+  display: block;
 }
 
-.disabled{
-  transform: translateY(-200px);
+.disabled {
+  transform: translateY(-250px);
+  transition-duration: 1s;
 }
 
-.active{
+.active {
   width: 100%;
   transition-duration: 1s;
   transform: translateY(0px);
   background: rgb(213, 216, 216);
 }
+
+.hamburguer_disabled_Y {
+  margin: 5px;
+  border-bottom: solid 2px black;
+  width: 20px;
+}
+
+.hamburguer_disabled_X {
+  margin: 5px;
+  border-bottom: solid 2px black;
+  width: 20px;
+}
+
+.hamburguer_active_Y {
+  transform: rotate(50deg);
+  border-bottom: solid 2px black;
+  width: 20px;
+  transition-duration: 1s;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+}
+
+.hamburguer_active_X {
+  transform: rotate(-50deg);
+  border-bottom: solid 2px black;
+  width: 20px;
+  transition-duration: 1s;
+  align-items: center;
+}
+
+/*position: absolute;
